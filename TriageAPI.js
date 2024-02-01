@@ -33,7 +33,7 @@ const sortUsers = (jsonUsers, attribute, isAscending) => {
             return users.sort((a, b) => compareValues(a["age"], b["age"], isAscending));
             break;
         default:
-            throw new Error(`Paramètre "${attribute}" non valide`);
+            throw new Error(`Paramètres "${attribute}" non valide`);
     }
 };
 
